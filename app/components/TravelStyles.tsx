@@ -7,42 +7,42 @@ const travelStyles = [
     title: "Beach Escapes",
     description:
       "Relax on pristine beaches, crystal-clear waters, and luxurious seaside resorts.",
-    image: "/images/TravelStyles/beach.jpg",
+    image: "public/images/TravelStyles/beach.jpg",
     href: "/TravelStyles/beach",
   },
   {
     title: "City Breaks",
     description:
       "Explore iconic skylines, culture, shopping, and unforgettable city experiences.",
-    image: "/images/TravelStyles/city.jpg",
+    image: "public/images/TravelStyles/city.jpg",
     href: "/TravelStyles/city",
   },
   {
     title: "Honeymoon Escapes",
     description:
       "Celebrate your love with romantic destinations and unforgettable sunsets.",
-    image: "/images/TravelStyles/honeymoon.jpg",
+    image: "public/images/TravelStyles/honeymoon.jpg",
     href: "/TravelStyles/honeymoon",
   },
   {
     title: "Adventure Tours",
     description:
       "Discover mountains, hiking trails, breathtaking landscapes, and thrilling adventures.",
-    image: "/images/TravelStyles/adventure.jpg",
+    image: "public/images/TravelStyles/adventure.jpg",
     href: "/TravelStyles/adventure",
   },
   {
     title: "Family Holidays",
     description:
       "Create lasting memories with destinations perfect for travelers of every age.",
-    image: "/images/TravelStyles/family.jpg",
+    image: "public/images/TravelStyles/family.jpg",
     href: "/TravelStyles/family",
   },
   {
     title: "Business Travel",
     description:
       "Professional travel solutions with flexibility, comfort, and convenience.",
-    image: "/images/TravelStyles/business.jpg",
+    image: "public/images/TravelStyles/business.jpg",
     href: "/TravelStyles/business",
   },
 ];
