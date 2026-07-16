@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="relative h-[90vh] overflow-hidden">
 
         <Image
-          src="/images/about/about-ourstory.jpg"
+          src="/images/about/storyhero.jpg"
           alt="Our Story"
           fill
           priority
@@ -63,7 +63,7 @@ export default function AboutPage() {
               <div className="overflow-hidden rounded-[32px] shadow-2xl">
 
                 <Image
-                  src="/images/about/story1.jpg"
+                  src="/images/about/image1.jpg"
                   alt="Airport Traveler"
                   width={700}
                   height={850}
@@ -177,7 +177,7 @@ export default function AboutPage() {
               <div className="overflow-hidden rounded-[32px] shadow-2xl">
 
                 <Image
-                  src="/images/about/story2.jpg"
+                  src="/images/about/image2.jpg"
                   alt="Travel Planning"
                   width={700}
                   height={700}
