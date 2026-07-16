@@ -22,28 +22,28 @@ const travelStyles = [
     description:
       "Celebrate your love with romantic destinations and unforgettable sunsets.",
     image: "/images/TravelStyles/honeymoon.jpg",
-    href: "/TravelStyles/honeymoon",
+    href: "/honeymoon-escapes",
   },
   {
     title: "Adventure Tours",
     description:
       "Discover mountains, hiking trails, breathtaking landscapes, and thrilling adventures.",
     image: "/images/TravelStyles/adventure.jpg",
-    href: "/TravelStyles/adventure",
+    href: "/adventure-tours",
   },
   {
     title: "Family Holidays",
     description:
       "Create lasting memories with destinations perfect for travelers of every age.",
     image: "/images/TravelStyles/family.jpg",
-    href: "/TravelStyles/family",
+    href: "/family-holidays",
   },
   {
     title: "Business Travel",
     description:
       "Professional travel solutions with flexibility, comfort, and convenience.",
     image: "/images/TravelStyles/business.jpg",
-    href: "/TravelStyles/business",
+    href: "/business-travel",
   },
 ];
 
@@ -51,14 +51,13 @@ export default function TravelStyles() {
   return (
     <section className="bg-[var(--ivory)] py-24">
       <div className="mx-auto max-w-7xl px-6">
-        {/* Heading */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[var(--gold)]">
-            Explore by Travel Style
+            Explore by Experience
           </p>
 
           <h2 className="font-heading mt-4 text-5xl font-bold text-[var(--primary)]">
-            Choose Your Travel Experience
+            Choose Your Perfect Journey
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -68,7 +67,6 @@ export default function TravelStyles() {
           </p>
         </div>
 
-        {/* Cards */}
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {travelStyles.map((style) => (
             <Link
