@@ -69,7 +69,7 @@ export default function ContactPage() {
             </h3>
 
             <p className="text-gray-300">
-              Coming Soon
+              62841 29265
             </p>
 
           </div>
@@ -83,7 +83,7 @@ export default function ContactPage() {
             </h3>
 
             <p className="text-gray-300">
-              Coming Soon
+              Info@nahorizontravels.com
             </p>
 
           </div>
