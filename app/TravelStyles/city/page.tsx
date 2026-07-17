@@ -5,7 +5,7 @@ import { ArrowRight, CalendarDays, Plane } from "lucide-react";
 const cities = [
   {
     name: "Paris",
-    image: "/images/city/paris.jpg",
+    image: "/images/city/paris1.jpg",
     bestTime: "April – June & September –October",
     airfare: "From ₹41,999*",
     description:
@@ -13,7 +13,7 @@ const cities = [
   },
   {
     name: "London",
-    image: "/images/city/london.jpg",
+    image: "/images/city/london1.jpg",
     bestTime: "May – September",
     airfare: "From ₹46,999*",
     description:
@@ -21,7 +21,7 @@ const cities = [
   },
   {
     name: "Dubai",
-    image: "/images/city/dubai.jpg",
+    image: "/images/city/dubai1.jpg",
     bestTime: "November – March",
     airfare: "From ₹24,999*",
     description:
@@ -29,7 +29,7 @@ const cities = [
   },
   {
     name: "Singapore",
-    image: "/images/city/singapore.jpg",
+    image: "/images/city/singapore1.jpg",
     bestTime: "February – April",
     airfare: "From ₹28,999*",
     description:
