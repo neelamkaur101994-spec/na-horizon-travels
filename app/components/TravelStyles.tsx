@@ -22,28 +22,28 @@ const travelStyles = [
     description:
       "Celebrate your love with romantic destinations and unforgettable sunsets.",
     image: "/images/TravelStyles/honeymoon.jpg",
-    href: "/honeymoon-escapes",
+    href: "/TravelStyles/honeymoon",
   },
   {
     title: "Adventure Tours",
     description:
       "Discover mountains, hiking trails, breathtaking landscapes, and thrilling adventures.",
     image: "/images/TravelStyles/adventure.jpg",
-    href: "/adventure-tours",
+    href: "/TravelStyles/adventure",
   },
   {
     title: "Family Holidays",
     description:
       "Create lasting memories with destinations perfect for travelers of every age.",
     image: "/images/TravelStyles/family.jpg",
-    href: "/family-holidays",
+    href: "/TravelStyles/family",
   },
   {
     title: "Business Travel",
     description:
       "Professional travel solutions with flexibility, comfort, and convenience.",
     image: "/images/TravelStyles/business.jpg",
-    href: "/business-travel",
+    href: "/TravelStyles/business",
   },
 ];
 
