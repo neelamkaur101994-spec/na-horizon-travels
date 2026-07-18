@@ -14,7 +14,10 @@ export default function FlightSearch() {
   const [tripType, setTripType] = useState("oneway");
 
   return (
-    <section className="relative z-30 -mt-24 md:-mt-32 px-4 pb-16">
+    <section
+  id="flight-search"
+  className="relative z-30 -mt-24 md:-mt-32 px-4 pb-16"
+>
       <div className="mx-auto max-w-7xl rounded-3xl border border-white/20 bg-white/95 p-5 shadow-[0_35px_90px_rgba(0,0,0,0.18)] backdrop-blur-xl md:p-8">
 
         {/* Trip Type */}

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight, PlaneTakeoff } from "lucide-react";
 
 export default function Hero() {
@@ -23,9 +24,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-6 pb-32 md:pb-40">
-
         <div className="max-w-3xl">
-
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-yellow-500/40 bg-white/10 px-4 py-2 text-xs text-yellow-400 backdrop-blur-md md:px-5 md:text-sm">
             <PlaneTakeoff size={16} />
@@ -36,9 +35,7 @@ export default function Hero() {
           <h1 className="font-poppins text-4xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
             Explore the World
             <br />
-            <span className="text-yellow-400">
-              with Confidence
-            </span>
+            <span className="text-yellow-400">with Confidence</span>
           </h1>
 
           {/* Subtitle */}
@@ -50,21 +47,24 @@ export default function Hero() {
 
           {/* Buttons */}
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-
-            <button className="rounded-full bg-yellow-500 px-8 py-4 text-base font-semibold text-black transition hover:bg-yellow-400 md:text-lg">
+            <a
+              href="#flight-search"
+              className="rounded-full bg-yellow-500 px-8 py-4 text-center text-base font-semibold text-black transition hover:bg-yellow-400 md:text-lg"
+            >
               Search Flights
-            </button>
+            </a>
 
-            <button className="flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base text-white backdrop-blur-md transition hover:bg-white/20 md:text-lg">
+            <Link
+              href="/About"
+              className="flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base text-white backdrop-blur-md transition hover:bg-white/20 md:text-lg"
+            >
               Learn More
               <ArrowRight size={20} />
-            </button>
-
+            </Link>
           </div>
 
           {/* Service Highlights */}
           <div className="mt-10 flex flex-wrap gap-3">
-
             <span className="rounded-full border border-yellow-500/30 bg-white/10 px-4 py-2 text-xs text-white backdrop-blur-md md:px-5 md:text-sm">
               ✈ Domestic Flights
             </span>
@@ -76,11 +76,8 @@ export default function Hero() {
             <span className="rounded-full border border-yellow-500/30 bg-white/10 px-4 py-2 text-xs text-white backdrop-blur-md md:px-5 md:text-sm">
               💼 Personalized Booking Assistance
             </span>
-
           </div>
-
         </div>
-
       </div>
 
       {/* Bottom Fade */}
