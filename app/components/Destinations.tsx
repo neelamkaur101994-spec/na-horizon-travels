@@ -77,7 +77,7 @@ const destinations = [
 
 export default function Destinations() {
   return (
-    <section className="bg-[var(--ivory)] pb-24">
+    <section className="bg-[#0B0B0B] pb-24">
       <div className="mx-auto max-w-7xl px-6">
 
         <div className="grid gap-10 lg:grid-cols-2">

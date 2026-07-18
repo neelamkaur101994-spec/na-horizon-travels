@@ -6,324 +6,286 @@ export default function AboutPage() {
 
       {/* ================= HERO ================= */}
 
-      <section className="relative h-[90vh] overflow-hidden">
+<section className="relative h-[55vh] min-h-[420px] md:h-[90vh] overflow-hidden">
+  <Image
+    src="/images/about/storyhero.jpg"
+    alt="Our Story"
+    fill
+    priority
+    className="object-cover"
+  />
 
-        <Image
-          src="/images/about/storyhero.jpg"
-          alt="Our Story"
-          fill
-          priority
-          className="object-cover"
-        />
+  <div className="absolute inset-0 bg-black/55" />
 
-        <div className="absolute inset-0 bg-black/55" />
+  <div className="absolute inset-0 flex items-center">
+    <div className="max-w-7xl mx-auto px-6 md:px-8 w-full">
 
-        <div className="absolute inset-0 flex items-center">
+      <p className="uppercase tracking-[0.3em] md:tracking-[0.4em] text-yellow-500 text-xs md:text-sm mb-4 md:mb-6">
+        OUR STORY
+      </p>
 
-          <div className="max-w-7xl mx-auto px-8 w-full">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight max-w-4xl">
+        Every Great Journey
+        <br />
+        Begins With a
+        <span className="text-yellow-500"> Story</span>
+      </h1>
 
-            <p className="uppercase tracking-[0.4em] text-yellow-500 text-sm mb-6">
-              OUR STORY
-            </p>
+      <div className="w-20 md:w-24 h-[2px] bg-yellow-500 mt-6 md:mt-8 mb-6 md:mb-8" />
 
-            <h1 className="text-6xl md:text-7xl font-light text-white leading-tight max-w-4xl">
-              Every Great Journey
-              <br />
-              Begins With a
-              <span className="text-yellow-500"> Story</span>
-            </h1>
+      <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-2xl leading-7 md:leading-9">
+        Discover how a passion for travel became
+        NA Horizon Travels — where every journey
+        is planned with care, trust and attention
+        to every detail.
+      </p>
 
-            <div className="w-24 h-[2px] bg-yellow-500 mt-8 mb-8" />
-
-            <p className="text-xl text-gray-200 max-w-2xl leading-9">
-              Discover how a passion for travel became
-              NA Horizon Travels — where every journey
-              is planned with care, trust and attention
-              to every detail.
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
+    </div>
+  </div>
+</section>
 
       {/* ================= OUR BEGINNING ================= */}
 
-      <section className="py-36">
+<section className="py-16 md:py-24 lg:py-36">
+  <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
-        <div className="max-w-7xl mx-auto px-8">
+      {/* Image */}
+      <div>
+        <div className="overflow-hidden rounded-[24px] md:rounded-[32px] shadow-2xl">
+          <Image
+            src="/images/about/image1.jpg"
+            alt="Airport Traveler"
+            width={700}
+            height={850}
+            className="object-cover rounded-[24px] md:rounded-[32px] transition duration-700 hover:scale-105 w-full h-auto"
+          />
+        </div>
+      </div>
 
-          <div className="grid lg:grid-cols-2 gap-24 items-center">
+      {/* Content */}
+      <div>
+        <p className="uppercase tracking-[0.3em] md:tracking-[0.35em] text-yellow-600 text-xs md:text-sm mb-4 md:mb-6">
+          OUR BEGINNING
+        </p>
 
-            {/* Image */}
+        <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#111111] font-light leading-tight mb-6 md:mb-8">
+          Every Journey
+          <br />
+          Begins With a Dream
+        </h2>
 
-            <div>
+        <p className="text-gray-700 text-base md:text-lg leading-7 md:leading-9 mb-6 md:mb-8">
+          NA Horizon Travels was born from a genuine passion
+          for exploring the world. What began as helping
+          ourselves, family and close friends book flights
+          gradually evolved into creating memorable travel
+          experiences for others.
+        </p>
 
-              <div className="overflow-hidden rounded-[32px] shadow-2xl">
+        <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9 mb-6 md:mb-8">
+          Along the way we realised that travel isn't only
+          about finding a ticket. It's about trust,
+          guidance and making every step of the journey
+          effortless—from planning to arrival.
+        </p>
 
-                <Image
-                  src="/images/about/image1.jpg"
-                  alt="Airport Traveler"
-                  width={700}
-                  height={850}
-                  className="object-cover rounded-[32px] transition duration-700 hover:scale-105"
-                />
+        <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9">
+          Today, our commitment remains the same:
+          provide honest advice, personalised service
+          and carefully planned journeys that our
+          travellers can enjoy with confidence.
+        </p>
 
-              </div>
+        <div className="mt-8 md:mt-12 border-l-2 border-yellow-500 pl-5 md:pl-6">
+          <p className="italic text-yellow-700 text-lg md:text-xl leading-8 md:leading-9">
+            "Every booking is more than a reservation —
+            it's the beginning of someone's next adventure."
+          </p>
+        </div>
+      </div>
 
-            </div>
+    </div>
+  </div>
+</section>
 
-            {/* Content */}
+       {/* ================= TRAVEL, SIMPLIFIED ================= */}
 
-            <div>
+<section className="py-16 md:py-24 lg:py-36 bg-white">
+  <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
-              <p className="uppercase tracking-[0.35em] text-yellow-600 text-sm mb-6">
-                OUR BEGINNING
-              </p>
+      {/* Content */}
+      <div>
+        <p className="uppercase tracking-[0.3em] md:tracking-[0.35em] text-yellow-600 text-xs md:text-sm mb-4 md:mb-6">
+          TRAVEL, SIMPLIFIED
+        </p>
 
-              <h2 className="text-4xl md:text-5xl text-[#111111] font-light leading-tight mb-8">
-                Every Journey
-                <br />
-                Begins With a Dream
-              </h2>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#111111] font-light leading-tight mb-6 md:mb-8">
+          Every Detail
+          <br />
+          Matters
+        </h2>
 
-              <p className="text-gray-700 text-lg leading-9 mb-8">
-                NA Horizon Travels was born from a genuine passion
-                for exploring the world. What began as helping
-                ourselves, family and close friends book flights
-                gradually evolved into creating memorable travel
-                experiences for others.
-              </p>
+        <p className="text-gray-700 text-base md:text-lg leading-7 md:leading-9 mb-6 md:mb-8">
+          Great journeys don't happen by chance—they begin
+          with thoughtful planning. Whether you're travelling
+          for business, visiting loved ones or heading on
+          your dream holiday, every detail deserves attention.
+        </p>
 
-              <p className="text-gray-600 text-lg leading-9 mb-8">
-                Along the way we realised that travel isn't only
-                about finding a ticket. It's about trust,
-                guidance and making every step of the journey
-                effortless—from planning to arrival.
-              </p>
+        <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9 mb-6 md:mb-8">
+          At NA Horizon Travels, we carefully compare flight
+          options, plan itineraries and guide you through the
+          booking process so you can enjoy a smooth and
+          stress-free experience.
+        </p>
 
-              <p className="text-gray-600 text-lg leading-9">
-                Today, our commitment remains the same:
-                provide honest advice, personalised service
-                and carefully planned journeys that our
-                travellers can enjoy with confidence.
-              </p>
+        <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9">
+          From your first enquiry until you arrive at your
+          destination, our goal is simple — to make travel
+          easier, more comfortable and more enjoyable.
+        </p>
+      </div>
 
-              <div className="mt-12 border-l-2 border-yellow-500 pl-6">
+      {/* Image */}
+      <div>
+        <div className="overflow-hidden rounded-[24px] md:rounded-[32px] shadow-2xl">
+          <Image
+            src="/images/about/image2.jpg"
+            alt="Travel Planning"
+            width={700}
+            height={700}
+            className="rounded-[24px] md:rounded-[32px] object-cover transition duration-700 hover:scale-105 w-full h-auto"
+          />
+        </div>
+      </div>
 
-                <p className="italic text-yellow-700 text-xl leading-9">
-                  "Every booking is more than a reservation —
-                  it's the beginning of someone's next adventure."
-                </p>
+    </div>
+  </div>
+</section>
+{/* ================= MISSION & VALUES ================= */}
 
-              </div>
+<section className="py-16 md:py-24 lg:py-36 bg-[#FAF9F6]">
+  <div className="max-w-6xl mx-auto px-6 md:px-8 text-center">
 
-            </div>
+    <p className="uppercase tracking-[0.3em] md:tracking-[0.35em] text-yellow-600 text-xs md:text-sm mb-4 md:mb-6">
+      OUR VALUES
+    </p>
 
-          </div>
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#111111] mb-6 md:mb-8">
+      More Than Booking Flights.
+      <br />
+      We Create Journeys.
+    </h2>
 
+    <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9 max-w-3xl mx-auto mb-12 md:mb-20">
+      We believe travel is about creating unforgettable
+      memories. Every journey we plan is guided by trust,
+      transparency and genuine care for every traveller.
+    </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+
+      {/* Card */}
+      <div className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg border border-yellow-500/10 p-6 md:p-10">
+
+        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-6 md:mb-8 text-2xl">
+          🛡️
         </div>
 
-      </section>
-            {/* ================= TRAVEL, SIMPLIFIED ================= */}
+        <h3 className="text-xl md:text-2xl font-semibold text-[#111111] mb-4 md:mb-5">
+          Trust
+        </h3>
 
-      <section className="py-36 bg-white">
+        <p className="text-gray-600 leading-7 md:leading-8">
+          Honest advice, transparent pricing and dependable
+          service form the foundation of every journey we plan.
+        </p>
 
-        <div className="max-w-7xl mx-auto px-8">
+      </div>
 
-          <div className="grid lg:grid-cols-2 gap-24 items-center">
+      {/* Card */}
+      <div className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg border border-yellow-500/10 p-6 md:p-10">
 
-            {/* Content */}
-
-            <div>
-
-              <p className="uppercase tracking-[0.35em] text-yellow-600 text-sm mb-6">
-                TRAVEL, SIMPLIFIED
-              </p>
-
-              <h2 className="text-4xl md:text-5xl text-[#111111] font-light leading-tight mb-8">
-                Every Detail
-                <br />
-                Matters
-              </h2>
-
-              <p className="text-gray-700 text-lg leading-9 mb-8">
-                Great journeys don't happen by chance—they begin
-                with thoughtful planning. Whether you're travelling
-                for business, visiting loved ones or heading on
-                your dream holiday, every detail deserves attention.
-              </p>
-
-              <p className="text-gray-600 text-lg leading-9 mb-8">
-                At NA Horizon Travels, we carefully compare flight
-                options, plan itineraries and guide you through the
-                booking process so you can enjoy a smooth and
-                stress-free experience.
-              </p>
-
-              <p className="text-gray-600 text-lg leading-9">
-                From your first enquiry until you arrive at your
-                destination, our goal is simple — to make travel
-                easier, more comfortable and more enjoyable.
-              </p>
-
-            </div>
-
-            {/* Image */}
-
-            <div>
-
-              <div className="overflow-hidden rounded-[32px] shadow-2xl">
-
-                <Image
-                  src="/images/about/image2.jpg"
-                  alt="Travel Planning"
-                  width={700}
-                  height={700}
-                  className="rounded-[32px] object-cover transition duration-700 hover:scale-105"
-                />
-
-              </div>
-
-            </div>
-
-          </div>
-
+        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-6 md:mb-8 text-2xl">
+          ✨
         </div>
 
-      </section>
+        <h3 className="text-xl md:text-2xl font-semibold text-[#111111] mb-4 md:mb-5">
+          Excellence
+        </h3>
 
-      {/* ================= MISSION & VALUES ================= */}
+        <p className="text-gray-600 leading-7 md:leading-8">
+          We focus on thoughtful planning and attention to
+          detail to create smooth and memorable travel
+          experiences.
+        </p>
 
-      <section className="py-36 bg-[#FAF9F6]">
+      </div>
 
-        <div className="max-w-6xl mx-auto px-8 text-center">
+      {/* Card */}
+      <div className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg border border-yellow-500/10 p-6 md:p-10">
 
-          <p className="uppercase tracking-[0.35em] text-yellow-600 text-sm mb-6">
-            OUR VALUES
-          </p>
-
-          <h2 className="text-4xl md:text-5xl font-light text-[#111111] mb-8">
-            More Than Booking Flights.
-            <br />
-            We Create Journeys.
-          </h2>
-
-          <p className="text-gray-600 text-lg leading-9 max-w-3xl mx-auto mb-20">
-            We believe travel is about creating unforgettable
-            memories. Every journey we plan is guided by trust,
-            transparency and genuine care for every traveller.
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-8">
-
-            {/* Card */}
-
-            <div className="bg-white rounded-[32px] shadow-lg border border-yellow-500/10 p-10">
-
-              <div className="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-8">
-                🛡️
-              </div>
-
-              <h3 className="text-2xl font-semibold text-[#111111] mb-5">
-                Trust
-              </h3>
-
-              <p className="text-gray-600 leading-8">
-                Honest advice, transparent pricing and dependable
-                service form the foundation of every journey we plan.
-              </p>
-
-            </div>
-
-            {/* Card */}
-
-            <div className="bg-white rounded-[32px] shadow-lg border border-yellow-500/10 p-10">
-
-              <div className="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-8">
-                ✨
-              </div>
-
-              <h3 className="text-2xl font-semibold text-[#111111] mb-5">
-                Excellence
-              </h3>
-
-              <p className="text-gray-600 leading-8">
-                We focus on thoughtful planning and attention to
-                detail to create smooth and memorable travel
-                experiences.
-              </p>
-
-            </div>
-
-            {/* Card */}
-
-            <div className="bg-white rounded-[32px] shadow-lg border border-yellow-500/10 p-10">
-
-              <div className="w-16 h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-8">
-                ❤️
-              </div>
-
-              <h3 className="text-2xl font-semibold text-[#111111] mb-5">
-                Care
-              </h3>
-
-              <p className="text-gray-600 leading-8">
-                Every traveller is unique. We take the time to
-                understand your plans and provide personalised
-                assistance from start to finish.
-              </p>
-
-            </div>
-
-          </div>
-
+        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-yellow-100 flex items-center justify-center mx-auto mb-6 md:mb-8 text-2xl">
+          ❤️
         </div>
 
-      </section>
-            {/* ================= CALL TO ACTION ================= */}
+        <h3 className="text-xl md:text-2xl font-semibold text-[#111111] mb-4 md:mb-5">
+          Care
+        </h3>
 
-      <section className="py-32 bg-[#FAF9F6] border-t border-yellow-500/10">
+        <p className="text-gray-600 leading-7 md:leading-8">
+          Every traveller is unique. We take the time to
+          understand your plans and provide personalised
+          assistance from start to finish.
+        </p>
 
-        <div className="max-w-4xl mx-auto px-8 text-center">
+      </div>
 
-          <p className="uppercase tracking-[0.35em] text-yellow-600 text-sm mb-5">
-            START YOUR NEXT JOURNEY
-          </p>
+    </div>
+  </div>
+</section>
+{/* ================= CALL TO ACTION ================= */}
 
-          <h2 className="text-4xl md:text-5xl font-light text-[#111111] leading-tight mb-8">
-            Ready to Explore the
-            <span className="text-yellow-600"> World?</span>
-          </h2>
+<section className="py-16 md:py-24 lg:py-32 bg-[#FAF9F6] border-t border-yellow-500/10">
+  <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
 
-          <p className="text-gray-600 text-lg leading-9 max-w-2xl mx-auto mb-12">
-            Whether you're planning a business trip, a family vacation,
-            or your dream getaway, we're here to help you find the best
-            travel options with personalized service every step of the way.
-          </p>
+    <p className="uppercase tracking-[0.3em] md:tracking-[0.35em] text-yellow-600 text-xs md:text-sm mb-4 md:mb-5">
+      START YOUR NEXT JOURNEY
+    </p>
 
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center rounded-full
-            bg-yellow-500
-            hover:bg-yellow-400
-            text-black
-            font-semibold
-            px-10
-            py-4
-            transition-all
-            duration-300
-            hover:-translate-y-1
-            hover:shadow-xl"
-          >
-            Get My Travel Quote
-          </a>
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#111111] leading-tight mb-6 md:mb-8">
+      Ready to Explore the
+      <span className="text-yellow-600"> World?</span>
+    </h2>
 
-        </div>
+    <p className="text-gray-600 text-base md:text-lg leading-7 md:leading-9 max-w-2xl mx-auto mb-8 md:mb-12">
+      Whether you're planning a business trip, a family vacation,
+      or your dream getaway, we're here to help you find the best
+      travel options with personalized service every step of the way.
+    </p>
 
-      </section>
+    <a
+      href="/contact"
+      className="inline-flex items-center justify-center rounded-full
+      bg-yellow-500
+      hover:bg-yellow-400
+      text-black
+      font-semibold
+      px-8 md:px-10
+      py-3 md:py-4
+      text-sm md:text-base
+      transition-all
+      duration-300
+      hover:-translate-y-1
+      hover:shadow-xl"
+    >
+      Get My Travel Quote
+    </a>
 
-    </main>
+  </div>
+</section>  
+</main>
   );
-}
+}   
